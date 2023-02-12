@@ -1,0 +1,17 @@
+[package]
+name = "mine_sweeper"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[features]
+default = []
+debug = ["board_plugin/debug", "bevy-inspector-egui"]
+
+[dependencies]
+bevy = "0.9"
+board_plugin = { path = "../board_plugin" }
+
+# Hierarchy inspector debug
+bevy-inspector-egui = { version = "0.17", optional = true }

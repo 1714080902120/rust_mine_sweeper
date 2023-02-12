@@ -1,0 +1,7 @@
+[workspace]
+members = [
+  "mine_sweeper",
+  "board_plugin",
+  # "my_macro"
+]
+resolver = "2"
