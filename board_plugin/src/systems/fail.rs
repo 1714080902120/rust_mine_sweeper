@@ -34,7 +34,7 @@ pub fn fail(
             ..Default::default()
         };
 
-        let cover_board_entry = commands.entity(board_entry).with_children(|parent| {
+        commands.entity(board_entry).with_children(|parent| {
             parent
                 .spawn(SpriteBundle {
                     sprite: Sprite {

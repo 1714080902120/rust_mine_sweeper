@@ -97,14 +97,14 @@ fn setup_board(
             color: Color::GRAY,
             ..Default::default()
         },
-        bomb_counter_font: asset_server.load("fonts/pixeled.ttf"),
+        bomb_counter_font: asset_server.load("/fonts/pixeled.ttf"),
         bomb_counter_colors: BoardAssets::default_colors(),
         flag_material: SpriteMaterial {
-            texture: asset_server.load("sprites/flag.png"),
+            texture: asset_server.load("/sprites/flag.png"),
             color: Color::WHITE,
         },
         bomb_material: SpriteMaterial {
-            texture: asset_server.load("sprites/bomb.png"),
+            texture: asset_server.load("/sprites/bomb.png"),
             color: Color::WHITE,
         },
         fail_material: SpriteMaterial {
